@@ -1,9 +1,11 @@
+import PageHeader from "./layouts/PageHeader";
 
 function App() {
   return (
-    <>
-      <p className="text-blue-600 text-7xl">Hola mundo</p>
-    </>
+    <div className="max-h-screen flex flex-col">
+      <PageHeader/>
+      <div>2</div>
+    </div>
   );
 }
 
